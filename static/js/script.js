@@ -58,3 +58,13 @@ $(document).ready(function() {
 }); 
 // jquery end
 
+setTimeout(function() {
+  $('#message').fadeOut('slow'); // "slow" is about 600ms
+}, 4000);
+
+// setTimeout(function(){
+//     let message = document.getElementById('message')
+//     if(message){
+//         message.style.display = 'none'
+//     }
+// }, 4000)
